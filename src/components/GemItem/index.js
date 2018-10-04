@@ -4,7 +4,6 @@ import PanelTabs from '../tabs';
 
 export default class GemItem extends Component {
     render() {
-
     const gem = this.props.gem;
 
     return (

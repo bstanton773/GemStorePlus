@@ -3,6 +3,7 @@ import GemItem from '../GemItem';
 
 export default class GemList extends Component {
   render() {
+    console.log(this.props.gems)
     return (
       <div>
         <div className="row">

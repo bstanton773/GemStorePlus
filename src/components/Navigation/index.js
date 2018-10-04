@@ -3,6 +3,19 @@ import {NavLink} from 'react-router-dom';
 import './main.css';
 
 export default class Navigation extends Component {
+  constructor() {
+    super()
+    console.log("Component is constructed")
+  }
+
+  componentWillMount() {
+    console.log("Component will mount")
+  }
+
+  componentDidMount() {
+    console.log("Component did mount")
+  }
+
   render() {
     return (
       <div>
